@@ -1,0 +1,3 @@
+g++ -g3 -O0 -std=c++17 -pedantic -Wall -Wold-style-cast -Wextra -Woverloaded-virtual -I./ -o vmm main.cpp Ram.cpp BackingStore.cpp MemoryManagementUnit.cpp ProcessControlBlock.cpp MemoryManager.cpp PageReplacementAlgorithm.cpp LRU_Replacement.cpp
+
+./vmm
